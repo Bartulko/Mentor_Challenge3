@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.7rem;
+}
+
+img {
+  border-radius: 100%;
+  max-width: 80px;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-size: 1.7rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.city {
+  color: hsl(75, 94%, 57%);
+  margin-top: 0.3rem;
+}
+
+.job-title {
+  color: hsl(0, 0%, 85%);
+  margin: 1.3rem 0 1.3rem 0;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+a {
+  background-color: hsl(0, 0%, 20%);
+  color: rgb(231, 231, 231);
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: hsl(0, 0%, 29%);
+  color: rgb(255, 255, 255);
+}
+
+.last-button {
+  margin-bottom: 3px;
+}
